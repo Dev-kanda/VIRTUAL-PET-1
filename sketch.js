@@ -25,6 +25,9 @@ if(keyWentDown(UP_ARROW)){
   writeStock(foodS);
  dog.addImage(Happydog);
 }
+	if(keyWentUp(UP_ARROW)){
+		dog.addImage(Dog);
+}
   drawSprites();
   //add styles here
   stroke(255);
